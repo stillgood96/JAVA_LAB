@@ -6,7 +6,8 @@ public class CustomerTest {
     public static void main(String[] args) {
 
 
-        ArrayList<Customer> customerList =new ArrayList<>();
+        ArrayList<Customer> customerList = new ArrayList<>();
+        System.out.println("Hello");
 
         Customer customerT = new Customer(10010, "Tomas");
         Customer customerA = new GoldCustomer(10011, "Andrew");
@@ -19,6 +20,7 @@ public class CustomerTest {
         customerList.add(customerS);
         customerList.add(customerD);
         customerList.add(customerF);
+
 
 //        for( Customer customer : customerList) {
 //            System.out.println(customer.showCustomerInfo());
